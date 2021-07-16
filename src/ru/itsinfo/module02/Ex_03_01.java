@@ -12,7 +12,7 @@ import java.util.function.BinaryOperator;
  * Sample Input: 1 4
  * Sample Output: 4
  */
-public class Ex03 {
+public class Ex_03_01 {
     public static void main(String[] args) {
         BinaryOperator<Integer> maxFunc = (x, y) -> x > y ? x : y;
         // or..
