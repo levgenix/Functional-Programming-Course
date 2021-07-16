@@ -1,2 +1,2 @@
-# Functional-Programming-Course
-Java. Functional programming course. Exercises
+# Java.Functional programming course
+https://stepik.org/course/1595
