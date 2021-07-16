@@ -36,6 +36,6 @@ public class Step2 {
      * Sample Output 2: 318
      */
     public static UnaryOperator<Long> evenNumberFunction() {
-        return x -> x % 2 == 0 ? x + 2 : ++x;
+        return x -> x + (2 - x % 2);
     }
 }
