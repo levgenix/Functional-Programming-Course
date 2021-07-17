@@ -3,7 +3,7 @@ package ru.itsinfo;
 import java.util.function.BinaryOperator;
 import java.util.function.UnaryOperator;
 
-public class Step2 {
+public class Step2_04 {
 
     /**
      * Write a lambda expression that accepts two integers arguments and returns max of them.
