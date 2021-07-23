@@ -1,6 +1,12 @@
 package ru.itsinfo;
 
+
+import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
+import java.util.function.UnaryOperator;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 public class Step2_06 {
 
@@ -22,7 +28,7 @@ public class Step2_06 {
      * Sample Input 2: the three the three the three an an a
      * Sample Output 2: a an the three
      */
-    public static List<String> gettingDistinctStrings(List<String> list) {
-        return null;
+    public static UnaryOperator<List<String>> gettingDistinctStrings() {
+        return list -> new ArrayList<String>(new HashSet<String>(list));
     }
 }
