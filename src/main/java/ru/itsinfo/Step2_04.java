@@ -1,7 +1,5 @@
 package ru.itsinfo;
 
-import java.util.function.BiFunction;
-import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 public class Step2_04 {
